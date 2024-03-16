@@ -103,11 +103,6 @@ const filterTasks = ({ target: { value } }) => {
   list.forEach((li) => {
     const liText = li.textContent.trim().toLowerCase();
 
-    // if (liText.includes(text)) {
-    //   li.hidden = false;
-    // } else {
-    //   li.hidden = true;
-    // }
     li.hidden = !liText.includes(text);
   });
 };

@@ -126,4 +126,4 @@ taskList.addEventListener("click", removeTask);
 
 filterInput.addEventListener("input", filterTasks);
 
-// 1
+// 12

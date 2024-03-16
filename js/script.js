@@ -125,3 +125,5 @@ clearButton.addEventListener("click", clearTasks);
 taskList.addEventListener("click", removeTask);
 
 filterInput.addEventListener("input", filterTasks);
+
+// 1
